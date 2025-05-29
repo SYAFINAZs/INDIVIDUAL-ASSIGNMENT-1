@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Step by Step Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-image: url('IMAGES/BACKGROUND.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      backdrop-filter: blur(4px);
+    }
+
+    nav {
+      background-color: rgba(31, 63, 116, 0.9);
+      padding: 15px 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-weight: 500;
+      font-size: 1.05em;
+      transition: background 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 6px;
+    }
+
+    header {
+      background-color: rgba(31, 63, 116, 0.8);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+      font-size: 2em;
+      color: #1F3F74;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .intro {
+      font-size: 1.1em;
+      color: #333;
+      text-align: center;
+      margin-bottom: 30px;
+      line-height: 1.7;
+    }
+
+    ol {
+      font-size: 1.15em;
+      line-height: 1.9;
+      padding-left: 30px;
+      color: #333;
+    }
+
+    ol li {
+      margin-bottom: 15px;
+      padding-left: 10px;
+      transition: all 0.3s ease;
+    }
+
+    ol li:hover {
+      color: #1F3F74;
+      font-weight: 500;
+      transform: translateX(5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background-color: #1F3F74;
+      color: white;
+      font-size: 0.95em;
+      letter-spacing: 0.5px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="step-by-step.html">Step-by-Step</a>
+    <a href="inspiration.html">Inspiration & Resources</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Step by Step Guide</h1>
+  </header>
+
+  <div class="container">
+    <h2>How to Become a Successful Entrepreneur</h2>
+    <p class="intro">
+      Becoming an entrepreneur is an exciting journey that requires planning, knowledge, and determination. 
+      Every successful entrepreneur takes certain key steps to turn ideas into reality. Below are the essential steps you can follow to achieve your dream of running your own business.
+    </p>
+    <ol>
+      <li>Identify my passion and choose a business idea that aligns with it.</li>
+      <li>Gain knowledge through a degree in entrepreneurship or business studies.</li>
+      <li>Attend seminars, workshops, or online courses to learn practical skills.</li>
+      <li>Research the market and study about the competitors.</li>
+      <li>Create a strong and realistic business plan.</li>
+      <li>Look for startup capital through savings, loans, or investors.</li>
+      <li>Register the business and handle all legal requirements.</li>
+      <li>Launch the product or service and promote it online and offline.</li>
+      <li>Monitor performance, get feedback, and adapt to improve.</li>
+      <li>Continue to innovate and grow the business step by step.</li>
+    </ol>
+  </div>
+
+  <footer>
+    &copy; 2025 NURUL SYAFINAZ BINTI SAARI. All rights reserved.
+  </footer>
+
+</body>
+</html>
